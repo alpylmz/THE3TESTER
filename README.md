@@ -5,7 +5,7 @@ Tester for CENG140, Programming in C- Section 3
 
 Works for both python 2 & 3.
 
-For now supports onlyLinux
+For now supports only Linux
 
 Download and extract the zip.
 
