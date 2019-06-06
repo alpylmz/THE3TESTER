@@ -6,11 +6,16 @@ from colorama import *
 
 if len(argv)==1:
     print ("please give the executable")
+    try:
+        input("Press enter to continue")
+    except SyntaxError:
+        pass
     exit()
 executable=argv[1]
 print (Fore.GREEN+Style.BRIGHT+"STARTING")
 print ("...")
 print ("...")
+sleep(0.5)
 print ("tester by\nAlp Eren Yilmaz\n\n\n")
 sleep(1)
 true=0
@@ -207,6 +212,8 @@ if true==5:
     print(Style.BRIGHT+Fore.GREEN+"All of them is true!")
 else:
     print(Fore.CYAN+Style.BRIGHT+"You have " +str(false)+ " wrong answer")
-print(Style.RESET_ALL+"press enter to continue ...")
-a=input()
+try:
+    input("Press enter to continue")
+except SyntaxError:
+    pass
 
