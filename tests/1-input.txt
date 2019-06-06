@@ -1,0 +1,4 @@
+tests/1-binary.dat
+uchar abc , char yy , char   xx    ,long y   ,  uchar x  , int qwerty[yy]   , float asd[abc],  long    tyr[12]   , long   sa[4][abc]    ,     double    yup[y][y],char m[y][xx],uint   n[2][x]
+yy,xx,y,x,qwerty[y],asd[y],tyr[5],m[2][yy]
+

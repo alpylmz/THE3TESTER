@@ -1,0 +1,3 @@
+tests/sample.dat
+int n, float fiko, int kek, float ali[10],double s[n], long w, uint ka3x1, int p12[n][kek],double z
+fiko,n,p12[1][n],ali[1],ali[kek],ka3x1,kek,w,s[2]
