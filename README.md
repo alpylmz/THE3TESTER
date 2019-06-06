@@ -7,7 +7,8 @@ Works for both python 2 & 3.
 Supports both Windows and Linux.
 
 Download and extract the zip.
-to run:
+
+To run:
 python tester.py {a.out}
   You can change a.out with your own executable file
 
