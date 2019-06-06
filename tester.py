@@ -24,12 +24,12 @@ print (Fore.BLUE+Style.BRIGHT+"TEST 1")
 print ("")
 print (Fore.CYAN+Style.NORMAL+"INPUT")
 print ("---------------------------------")
-print (open("tests/1-input.txt","r").read())
+print (open("tests/5-input.txt","r").read())
 print ("---------------------------------")
 
-with open('tests/1-input.txt') as f:
+with open('tests/5-input.txt') as f:
     data=Popen([executable],stdout=PIPE,stdin=f).communicate()[0]
-f=open("tests/1-output.txt","r")
+f=open("tests/5-output.txt","r")
 contents=f.read()
 sleep(1)
 if(contents==data):
@@ -62,12 +62,12 @@ print (Fore.BLUE+Style.BRIGHT+"TEST 2")
 print ("")
 print (Fore.CYAN+Style.NORMAL+"INPUT")
 print ("---------------------------------")
-print (open("tests/2-input.txt","r").read())
+print (open("tests/4-input.txt","r").read())
 print ("---------------------------------")
 
-with open('tests/2-input.txt') as f:
+with open('tests/4-input.txt') as f:
     data=Popen([executable],stdout=PIPE,stdin=f).communicate()[0]
-f=open("tests/2-output.txt","r")
+f=open("tests/4-output.txt","r")
 contents=f.read()
 sleep(1)
 if(contents==data):
@@ -140,9 +140,9 @@ print ("---------------------------------")
 print (open("tests/4-input.txt","r").read())
 print ("---------------------------------")
 
-with open('tests/4-input.txt') as f:
+with open('tests/2-input.txt') as f:
     data=Popen([executable],stdout=PIPE,stdin=f).communicate()[0]
-f=open("tests/4-output.txt","r")
+f=open("tests/2-output.txt","r")
 contents=f.read()
 sleep(1)
 if(contents==data):
@@ -175,12 +175,12 @@ print (Fore.BLUE+Style.BRIGHT+"TEST 5")
 print ("")
 print (Fore.CYAN+Style.NORMAL+"INPUT")
 print ("---------------------------------")
-print (open("tests/5-input.txt","r").read())
+print (open("tests/1-input.txt","r").read())
 print ("---------------------------------")
 
-with open('tests/5-input.txt') as f:
+with open('tests/1-input.txt') as f:
     data=Popen([executable],stdout=PIPE,stdin=f).communicate()[0]
-f=open("tests/5-output.txt","r")
+f=open("tests/1-output.txt","r")
 contents=f.read()
 sleep(1)
 if(contents==data):
