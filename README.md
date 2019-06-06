@@ -4,7 +4,8 @@ Made by Alp Eren Yılmaz
 Tester for CENG140, Programming in C- Section 3
 
 Works for both python 2 & 3.
-Supports Linux
+
+For now supports onlyLinux
 
 Download and extract the zip.
 
