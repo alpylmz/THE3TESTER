@@ -207,5 +207,6 @@ if true==5:
     print(Style.BRIGHT+Fore.GREEN+"All of them is true!")
 else:
     print(Fore.CYAN+Style.BRIGHT+"You have " +str(false)+ " wrong answer")
-
+print(Style.RESET_ALL+"press enter to continue ...")
+a=input()
 
