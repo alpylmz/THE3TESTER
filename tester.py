@@ -137,7 +137,7 @@ print (Fore.BLUE+Style.BRIGHT+"TEST 4")
 print ("")
 print (Fore.CYAN+Style.NORMAL+"INPUT")
 print ("---------------------------------")
-print (open("tests/4-input.txt","r").read())
+print (open("tests/2-input.txt","r").read())
 print ("---------------------------------")
 
 with open('tests/2-input.txt') as f:
