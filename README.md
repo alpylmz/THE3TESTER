@@ -9,7 +9,9 @@ Supports both Windows and Linux.
 Download and extract the zip.
 
 To run:
+
 python tester.py {a.out}
-  You can change a.out with your own executable file
+
+You can change a.out with your own executable file
 
 Good Luck!
