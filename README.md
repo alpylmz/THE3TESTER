@@ -11,7 +11,7 @@ Download and extract the zip.
 
 To run:
 
-python tester.py {a.out}
+python tester.py ./{a.out}
 
   You can change "a.out" with your own executable file
 
