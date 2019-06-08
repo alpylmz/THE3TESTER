@@ -6,8 +6,10 @@ from colorama import *
 
 if len(argv)==1:
     print("please give the executable")
-    print(Style.RESET_ALL+"press enter to continue ...")
-    a=input()
+    try:
+        input("Press enter to continue")
+    except SyntaxError:
+        pass
     exit()
 executable=argv[1]
 print(Fore.GREEN+Style.BRIGHT+"STARTING")
@@ -59,12 +61,15 @@ true=tryy(2,"tests/4-input.txt","tests/4-output.txt",true)
 true=tryy(3,"tests/3-input.txt","tests/3-output.txt",true)
 true=tryy(4,"tests/2-input.txt","tests/2-output.txt",true)
 true=tryy(5,"tests/1-input.txt","tests/1-output.txt",true)
+true=tryy(6,"tests/6-input.txt","tests/6-output.txt",true)
+true=tryy(7,"tests/7-input.txt","tests/7-output.txt",true)
 
-if true==5:
+if true==7:
     print(Style.BRIGHT+Fore.GREEN+"All of them is true!")
 else:
-    print(Fore.CYAN+Style.BRIGHT+"You have " +str(5-true)+ " wrong answer")
+    print(Fore.CYAN+Style.BRIGHT+"You have " +str(7-true)+ " wrong answer")
 try:
     input("Press enter to continue")
 except SyntaxError:
     pass
+
