@@ -59,12 +59,13 @@ def tryy(testnumber,input,output,true):
 true=tryy(1,"tests/makeup-1-input.txt","tests/makeup-1-output.txt",true)
 true=tryy(2,"tests/makeup-2-input.txt","tests/makeup-2-output.txt",true)
 true=tryy(3,"tests/makeup-3-input.txt","tests/makeup-3-output.txt",true)
+true=tryy(3,"tests/makeup-4-input.txt","tests/makeup-4-output.txt",true)
 
 
-if true==3:
+if true==4:
     print(Style.BRIGHT+Fore.GREEN+"All of them is true!")
 else:
-    print(Fore.CYAN+Style.BRIGHT+"You have " +str(3-true)+ " wrong answer")
+    print(Fore.CYAN+Style.BRIGHT+"You have " +str(4-true)+ " wrong answer")
 try:
     input("Press enter to continue")
 except SyntaxError:
