@@ -14,5 +14,9 @@ To run:
 python tester.py ./{a.out}
 
   You can change "a.out" with your own executable file
+  
+For make-up tests:
+
+python makeuptester.py ./{a.out}
 
 Good Luck!
