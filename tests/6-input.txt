@@ -1,3 +1,3 @@
 tests/1.dat
-uchar abc  , uint duint[2][13]  ,   double ddouble[3][3]  , long y,long xxx[12], double ads , uchar abc   ,  long dlong[4][abc]     ,     int n,int m,uint q,float ff,    char yy    ,   char xx    ,  uchar x,   int qwerty[9],float deneme[5],    char dchar[y][xx]
+uint duint[2][13]  ,   double ddouble[3][3]  , long y,long xxx[12], double ads , uchar abc   ,  long dlong[4][abc]     ,     int n,int m,uint q,float ff,    char yy    ,   char xx    ,  uchar x,   int qwerty[9],float deneme[5],    char dchar[y][xx]
 duint[1][5],ddouble[2][1],y,xxx[5]    ,   ads   ,  abc   ,dlong[y][y]  ,  deneme[y]    ,    xx   ,qwerty[abc]  
